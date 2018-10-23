@@ -15,8 +15,6 @@
 #include <mm_malloc.h>
 
 
-#include "miner.h"
-
 void lyra2z_hash(uint64_t* wholeMatrix, void *state, const void *input)
 {
 #ifdef VERBOSE_HASH_TIMING
